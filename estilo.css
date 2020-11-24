@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+#inicio
+{
+    background-image: url('./nature1.jpg');
+    background-attachment: fixed;
+    font-family: 'Signika Negative', sans-serif;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#p2
+{
+    background-image: url('./nature2.jpg');
+    background-attachment: fixed;
+    font-family: 'Signika Negative', sans-serif;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#p3
+{
+    background-image: url('./nature3.jpg');
+    background-attachment: fixed;
+    font-family: 'Signika Negative', sans-serif;
+    background-size: 100% 100%;
+    background-position: center;
+}
+#p4
+{
+    background-image: url('./nature4.jpg');
+    background-attachment: fixed;
+    font-family: 'Signika Negative', sans-serif;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.arriba>ul>li.activo
+{
+   opacity: 1;
+}
+
+aside
+{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 0%;
+}
+aside>figure>img
+{
+width: 100px;
+height: 100px;
+}
+.arriba
+{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+}
+.arriba>ul>li
+{
+    display: inline-block;
+    background-color: black;
+   opacity: 0.8;
+    padding:5px 20px;
+}
+.arriba>ul>li>a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.arriba>ul>li>a
+{
+    background-color: black;
+}
+
+.arriba>ul>:hover
+{
+    opacity: 1;
+}
+
+.abajo
+{
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+    
+}
+
+.abajo>ul>li
+{
+display: inline-block;
+padding: 0px;
+}
+.abajo>ul>li>figure
+{
+    margin: 5px;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+.abajo>ul>li>figure:hover
+{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+section
+{
+    opacity: 0.8;
+    padding: 25px;
+    width: 40%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top:50%;
+    left:50%;  
+    transform: translate(-50%,-50%);
+    text-align: center;
+     
+}
